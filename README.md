@@ -13,11 +13,19 @@ The Simple Weather App is a web application that allows users to get real-time w
 - Dynamic weather icons based on weather conditions
 - Responsive design for optimal viewing on all devices
 
+## Weather Icons
+
+- ![Weather App](images/cloud.png) - indicating the cloudy weather.
+- ![Weather App](images/sunny.png) - indicating the sunny weather.
+- ![Weather App](images/rainy.png) - indicating the rainy weather.
+- ![Weather App](images/drizzle.png) - indicating the drizzle weather.
+- ![Weather App](images/misty.png) - indicating the mist.
+
 ## Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript (embedded in HTML)
+- JavaScript 
 - OpenWeatherMap API
 
 ## Setup and Installation
@@ -32,7 +40,7 @@ The Simple Weather App is a web application that allows users to get real-time w
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/yourusername/simple-weather-app.git
+    git clone https://github.com/aman-sharma123/simple_weather_app.git
     ```
 
 2. **Navigate to the Project Directory**
@@ -54,13 +62,14 @@ The Simple Weather App is a web application that allows users to get real-time w
 
 ## Code Structure
 
-- **index.html**: The main HTML file that structures the app and contains the embedded JavaScript code.
+- **index.html**: The main HTML file that structures the app.
 - **styles.css**: The CSS file that styles the app.
 - **images/**: Directory containing weather icons and other images used in the app.
+- **weather.js**: The javascript file.
 
 ## API Integration
 
-This app uses the OpenWeatherMap API to fetch real-time weather data. You need an API key from OpenWeatherMap to use this app. Replace the `apiKey` variable in the `<script>` tag in `index.html` with your own API key.
+This app uses the OpenWeatherMap API to fetch real-time weather data. You need an API key from OpenWeatherMap to use this app. Replace the `apiKey` variable in the `weather.js` with your own API key.
 
 ```javascript
 const apiKey = "your_openweathermap_api_key";
